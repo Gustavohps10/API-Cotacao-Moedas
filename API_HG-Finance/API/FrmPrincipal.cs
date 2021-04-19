@@ -34,5 +34,11 @@ namespace API
             FrmEuro euro = new FrmEuro();
             euro.Show();
         }
+
+        private void ImgBitcoin_Click(object sender, EventArgs e)
+        {
+            FrmBitcoin bitcoin = new FrmBitcoin();
+            bitcoin.Show();
+        }
     }
 }
